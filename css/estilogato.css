@@ -1,0 +1,17 @@
+button
+{
+	margin-left: 1050px;
+}
+#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8,#c9
+{
+	width: 30px;
+	height: 70px;
+	border:6px solid blue;
+	display: inline-block;
+
+}
+.centro
+{
+	background-color: pink;
+margin-left: 500px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juego-El juego del gato</title>
+	<link rel="stylesheet" type="text/css" href="css/estilogato.css">
+</head>
+<body>
+<div class="centro">
+	
+
+	<dir id="c1"></dir>
+	<dir id="c2"></dir>
+    <dir id="c3"></dir>
+    <br>
+	<dir id="c4"></dir>
+	<dir id="c5"></dir>
+	<dir id="c6"></dir>
+	<br>
+	<dir id="c7"></dir>
+	<dir id="c8"></dir>
+	<dir id="c9"></dir>
+
+
+</div>
+
+
+	<button>Limpiar</button>
+
+<script>
+	
+var turno =0;
+$(".c1,c2").click(function)
+if(turno)
+{
+	$(this).html("O");
+	turno=1;
+}
+else
+{
+	$(this).html("X");
+	turno=0
+}
+
+</script>
+
+</body>
+</html>
